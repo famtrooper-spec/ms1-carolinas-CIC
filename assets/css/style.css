@@ -13,6 +13,16 @@
 }
 
 /* Global styles */
-
+.carousel-item {
+    max-height: 200px;
+    object-position: center;
+}
+header {
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+ main {
+    font-family: var(--secondary-font);
+ }
 
 /* Header */
