@@ -41,8 +41,8 @@ h3 {
     background-color: var(--primary-color);
 }
 .nav-logo {
-    height: 50px;
-    max-width: 50px;
+    height: 30px;
+    max-width: 30px;
 }
 /*main content*/
 main {
@@ -62,7 +62,9 @@ footer i {
 footer h3 {
     color: var(--highlight-color-light);
     font-family: var(--secondary-font);
-    text-transform: uppercase;
     letter-spacing: 2px;
+}
+.card { 
+    background-color:transparent;
 }
 /*queries*/
