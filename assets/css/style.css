@@ -8,29 +8,44 @@
     --secondary-font: "Lato", sans-serif;
     --primary-color: #2f5d3a; /*Deep Forest green*/ 
     --secondary-color: #495748; /*forest green*/
-    --highlight-color: #f3eedd; /*Soft Cream*/
-    --highlight-color-light: #e8e5df; /*soft stone*/
+    --highlight-color: #e8e5df; /*soft stone*/
+    --highlight-color-light: #f3eedd; /*Soft Cream*/
 }
 
 /* Global styles */
+body {
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+
+}
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: var(--highlight-color-light)
+}
 .carousel-item {
     max-height: 300px;
     object-position: fill;
     height:auto;
 }
-h1, h2, h3 {
-    font-family: var(--primary-font);
-    font-weight: bold;
-}
- main {
+/*main content*/
+main {
     font-family: var(--secondary-font);
  }
-.logo {
-  max-width: 300px;
-  width: 100px;
-  height: auto ;
-}
-i {
+/*footer*/
+footer i {
     padding-right: 0.5rem;
 }
- 
+
+ footer{
+    background-color: var(--primary-color);
+    font-family: var(--secondary-font);
+}
+footer i {
+    margin-bottom: 1rem;
+    color: var(--highlight-color);
+}
+footer h3 {
+    color: var(--highlight-color-light)
+}
+/*queries*/
