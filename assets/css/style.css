@@ -36,6 +36,14 @@ h3 {
     height: auto;
     width: 100%;
 }
+/*navbar*/
+.navbar {
+    background-color: var(--primary-color);
+}
+.nav-logo {
+    height: 50px;
+    max-width: 50px;
+}
 /*main content*/
 main {
     font-family: var(--secondary-font);
