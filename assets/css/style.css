@@ -27,6 +27,11 @@ h3 {
     font-weight: 500;
     color: var(--highlight-color-light)
 }
+p { 
+    color: var(--highlight-color-light);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+}
 .carousel-item img {
     max-height: 300px;
     object-fit: cover;
@@ -71,5 +76,8 @@ footer h3 {
 }
 .table {
     margin-top: 20px;
+}
+address {
+    color: var(--highlight-color);
 }
 /*queries*/
