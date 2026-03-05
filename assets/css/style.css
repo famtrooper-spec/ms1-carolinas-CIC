@@ -4,7 +4,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter", sans-serif;
+    --primary-font: "Inter", sans-serif, weight 500;
     --secondary-font: "Lato", sans-serif;
     --primary-color: #2f5d3a; /*Deep Forest green*/ 
     --secondary-color: black; 
@@ -46,16 +46,21 @@ p {
     height: 30px;
     max-width: 30px;
 }
+.nav-link { 
+    color: var(--highlight-color)
+}
+
 /*main content*/
 main {
     font-family: var(--secondary-font);
+    margin-bottom: 20px;
     }
 .logo {
     height:50%;
     width: auto;
 }
 /*footer*/
-footer{
+footer {
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
 }
@@ -63,6 +68,7 @@ footer i {
     margin-bottom: 1rem;
     color: var(--highlight-color);
     padding-right: 0.5rem;
+    
 }
 footer h3 {
     color: var(--highlight-color-light);
@@ -79,5 +85,8 @@ footer h3 {
 }
 address {
     color: var(--highlight-color);
+}
+i frame {
+    margin-top: 20px;
 }
 /*queries*/
