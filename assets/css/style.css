@@ -47,8 +47,9 @@ p {
 #navbarNav .nav-link:hover {
     color: var(--highlight-color-light);
 }
-.navbar-toggler-icon: {
-color: var(--highlight-color);
+.navbar-toggler {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
 }
 /*header*/
 #header {
@@ -81,8 +82,6 @@ main {
     height: 100%;
     object-fit: cover;
 }
-
-
 /*footer*/
 footer {
     background-color: var(--secondary-color);
