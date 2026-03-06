@@ -52,8 +52,11 @@ p {
     border-color: var(--highlight-color);
 }
 /*header*/
+header {
+    background-color: #2f5d3a;
+}
 #header {
-    margin-top:20px;
+    padding-top:20px;
     justify-content: center;
 }
 .logo {
@@ -61,7 +64,7 @@ p {
     width: auto;
 }
 .carousel-item img {
-    max-height: 400px;
+    max-height: 300px;
     object-fit: cover;
     height: auto;
     width: auto;
