@@ -33,14 +33,18 @@ p {
     font-weight: 400;
 }
 .carousel-item img {
-    max-height: 300px;
+    max-height: 400px;
     object-fit: cover;
     height: auto;
-    width: 100%;
+    width: auto;
 }
 /*navbar*/
 .navbar {
     background-color: var(--primary-color);
+    text-transform: uppercase;
+}
+.active {
+    color: var(--highlight-color-light);
 }
 .nav-logo {
     height: 30px;
@@ -49,7 +53,11 @@ p {
 .nav-link { 
     color: var(--highlight-color)
 }
-
+/*header*/
+#header {
+    margin-top:20px;
+    justify-content: center;
+}
 /*main content*/
 main {
     font-family: var(--secondary-font);
@@ -63,6 +71,7 @@ main {
 footer {
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
+    
 }
 footer i {
     margin-bottom: 1rem;
