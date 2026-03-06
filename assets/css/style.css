@@ -7,44 +7,35 @@
     --primary-font: "Inter", sans-serif, weight 500;
     --secondary-font: "Lato", sans-serif;
     --primary-color: #2f5d3a; /*Deep Forest green*/ 
-    --secondary-color: black; 
+    --secondary-color: #5EAB85;/*minty-green*/ 
     --highlight-color: #e8e5df; /*soft stone*/
-    --highlight-color-light: white;
+    --highlight-color-light: #B9C44C /*light yellow-green*/;
 }
 
 /* Global styles */
 body {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     font-weight: 400;
     height:100%;
     margin:0;
 }
 h1, 
-h2,
-h3 {
+h2, {
     font-family: var(--primary-font);
     font-weight: 500;
     color: var(--highlight-color-light)
 }
 p { 
-    color: var(--highlight-color-light);
+    color: var(--highlight-color);
     font-family: var(--secondary-font);
     font-weight: 400;
 }
-.carousel-item img {
-    max-height: 400px;
-    object-fit: cover;
-    height: auto;
-    width: auto;
-}
+
 /*navbar*/
 .navbar {
     background-color: var(--primary-color);
     text-transform: uppercase;
-}
-.active {
-    color: var(--highlight-color-light);
 }
 .nav-logo {
     height: 30px;
@@ -53,23 +44,48 @@ p {
 .nav-link { 
     color: var(--highlight-color)
 }
+#navbarNav .nav-link:hover {
+    color: var(--highlight-color-light);
+}
+.navbar-toggler-icon: {
+color: var(--highlight-color);
+}
 /*header*/
 #header {
     margin-top:20px;
     justify-content: center;
 }
+.logo {
+    height:50%;
+    width: auto;
+}
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    height: auto;
+    width: auto;
+}
+
 /*main content*/
 main {
     font-family: var(--secondary-font);
     margin-bottom: 20px;
     }
-.logo {
-    height:50%;
-    width: auto;
+.director-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
 }
+.director-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /*footer*/
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     
 }
