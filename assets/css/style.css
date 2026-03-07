@@ -21,10 +21,10 @@ body {
     margin:0;
 }
 h1, 
-h2, {
+h2, h3 {
     font-family: var(--primary-font);
     font-weight: 500;
-    color: var(--highlight-color-light)
+    color: var(--highlight-color-light);
 }
 p { 
     color: var(--highlight-color);
@@ -54,10 +54,7 @@ p {
 /*header*/
 header {
     background-color: #2f5d3a;
-}
-#header {
-    padding-top:20px;
-    justify-content: center;
+    font-size: large; 
 }
 .logo {
     height:50%;
@@ -69,11 +66,14 @@ header {
     height: auto;
     width: auto;
 }
-
+.opening-message {
+    margin-top: 50px;
+}
 /*main content*/
 main {
     font-family: var(--secondary-font);
     margin-bottom: 20px;
+    color: var(--highlight-color);
     }
 .director-image {
     width: 100%;

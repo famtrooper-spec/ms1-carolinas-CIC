@@ -41,9 +41,6 @@
                         <a class="nav-link" href="free-shop.html">Free Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="contact-us.html">Contact Us</a>
                     </li>
                 </ul>
@@ -66,13 +63,10 @@
 
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="display-6"><strong>MEET THE DIRECTORS</strong></h2>
+                    <h2 class="display-6"><strong>MEET THE DIRECTORS<br><br></strong></h2>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card">
-                        <div class="director-image">
-                            <img src="assets/images/carolina-photo.jpg" class="card-img-top" alt="Carolina's photo">
-                        </div>
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Carolina</h3>
                             <p class="card-text">
@@ -88,9 +82,6 @@
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card">
-                        <div class="director-image">
-                            <img src="/assets/images/denise-photo.png" class="card-img-top" alt="Denise's photo">
-                        </div>
                         <div class="card-body">
                             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                             <h3 class="card-title sub-heading-color">Denise</h3>
@@ -107,9 +98,6 @@
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card">
-                        <div class="director-image">
-                            <img src="assets/images/sharon-photo.avif" class="card-img-top" alt="Sharon's photo">
-                        </div>
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Sharon</h3>
                             <p class="card-text">
@@ -137,69 +125,46 @@
                         to discussing new opportunities and how we can work together to create something amazing!</p>
 
                 </div>
-                <div class="col-12 col-md-10 col-lg-8 mb-4">
-                    <!-- form-->
-                    <div class="mb-4">
-                        <form class="row g-3 sharp-corners">
-                            <div class="col-lg-4">
-                                <label for="fullname" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="fullname">
+                 <!-- Booking inquiry form section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>SEND US A MESSAGE</h2>
+                    <form action="message-sent-confirmation.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
                             </div>
-                            <div class="col-lg-4">
-                                <label for="phone" class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" id="phone">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
                             </div>
-                            <div class="col-lg-4">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
                             </div>
-                            <div class="mb-3">
-                                <label for="message1" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Subject</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Help</option>
+                                    <option value="dnd">Donations</option>
+                                    <option value="retro-night">Volunteering</option>
+                                    <option value="tournament">Comments</option>
+                                </select>
                             </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary custom-button">Send</button>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                    </form>
                 </div>
             </div>
-        </footer>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content sharp-corners">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Join my newsletter for the latest updates on my projects, coding tips, and industry insights
-                            delivered
-                            straight to your inbox.
-                        </p>
-
-                        <form class="row g-3">
-                            <div class="col-lg-6">
-                                <label for="inputName" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="inputName">
-                            </div>
-                            <div class="col-lg-6">
-                                <label for="inputEmail" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail">
-                            </div>
-                            <div class="col-12 mb-4">
-                                <button type="submit" class="btn btn-primary sharp-corners custom-button">
-                                    Sign up!
-
-                                </button>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
