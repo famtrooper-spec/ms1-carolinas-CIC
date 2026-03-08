@@ -75,8 +75,8 @@ main {
     padding-right: 2rem;
     }
 .logo {
-    height:50%;
-    max-width: 160px;
+    height:auto;
+    max-width: 350px;
 }
 .logo-home {
     margin-top: 4rem;
@@ -133,18 +133,21 @@ i frame {
 @media (min-width: 768px) {
     .logo {
         max-width: 220px;
+        height:auto;
     }
     .logo-home {
-        max-width: 400px;
+        max-width: 350px;
         height: auto;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
     .logo {
-        max-width: 280px;
+       max-width: 420px;
+       height:auto;
     }
     .logo-home {
         max-width: 420px;
+        height:auto;
     }
 }
