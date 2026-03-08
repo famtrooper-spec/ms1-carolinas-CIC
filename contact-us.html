@@ -47,29 +47,19 @@
             </div>
         </div>
     </nav>
-    <!-- Header with logo -->
-    <header id="header" class="container-fluid section">
-        <div class="row">
-            <p>
-
-            </p>
-
-        </div>
-
-    </header>
-    <main>
-        <!-- Meet the directors section -->
-        <section id="services" class="container-fluid section">
-
-            <div class="row">
+    <!-- Header -->
+    <header>
+<!-- Meet the directors section -->
+        <section class="container-fluid section">
+            <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h2 class="display-6"><strong>MEET THE DIRECTORS<br><br></strong></h2>
+                    <h2 class="display-6 meet-the-directors"><strong>MEET THE DIRECTORS</strong></h2>
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Carolina</h3>
-                            <p class="card-text">
+                            <h3 class="card-title">Carolina</h3>
+                            <p class="card-text meet-the-directors">
                                 Carolina is dedicated to fostering a sense of community and support for families in
                                 need. With a background in social work and a passion for helping others, she believes in
                                 creating a welcoming environment where everyone can access the resources they need.
@@ -84,8 +74,8 @@
                     <div class="card">
                         <div class="card-body">
                             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
-                            <h3 class="card-title sub-heading-color">Denise</h3>
-                            <p class="card-text">
+                            <h3 class="card-title">Denise</h3>
+                            <p class="card-text meet-the-directors">
                                 Denise is passionate about strengthening families and building a community where
                                 everyone feels welcomed and valued. With a background in education and a heart for
                                 supporting others, she believes in creating spaces where people can give and receive
@@ -99,8 +89,8 @@
                 <div class="col-12 col-xl-4">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Sharon</h3>
-                            <p class="card-text">
+                            <h3 class="card-title">Sharon</h3>
+                            <p class="card-text meet-the-directors">
                                 Sharon is dedicated to fostering a sense of community and support for families in need.
                                 With a background in social work and a passion for helping others, she believes in
                                 creating a welcoming environment where everyone can access the resources they need.
@@ -113,58 +103,65 @@
             </div>
             </div>
         </section>
-        <footer id="contact" class="container">
+    </header>
+    <main>
+        
+        <!-- Send us a message section -->
+         <section class="container section">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Contact</h2>
-                    <p class="mt-4">
-                        Got questions or ideas? I'd love to hear from you! Whether you're interested in collaboration,
-                        have inquiries
-                        about my projects, or wish to request a copy of my CV, please don't hesitate to get in touch.
-                        I'm always open
-                        to discussing new opportunities and how we can work together to create something amazing!</p>
+                    <h2 class="display-5 meet-the-directors">SEND US A MESSAGE</h2>
+                    <p>
+                       If you would like to contact us, we would love to hear from you.
+                        <br>You can use the form below to:
+                        ask for support, donate items, become a volunteer, ask a general question
+                        A member of our team will respond as soon as possible.
+                    </p>
 
                 </div>
-                 <!-- Booking inquiry form section -->
-        <section id="booking-form" class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <h2>SEND US A MESSAGE</h2>
-                    <form action="message-sent-confirmation.html" method="GET">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="event-type" class="form-label">Subject</label>
-                                <select id="event-type" class="form-select" name="event-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="regular-play">Help</option>
-                                    <option value="dnd">Donations</option>
-                                    <option value="retro-night">Volunteering</option>
-                                    <option value="tournament">Comments</option>
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                            </div>
+                
+                
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            
+                            <form action="message-sent-confirmation.html" method="GET">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input class="form-control" id="name" name="name" type="text" required>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input class="form-control" id="email" name="email" type="email" required>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="phone" class="form-label">Phone number</label>
+                                        <input class="form-control" id="phone" name="phone" type="number" required>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="event-type" class="form-label">Subject</label>
+                                        <select id="event-type" class="form-select" name="event-type" required>
+                                            <option value="" selected>Select</option>
+                                            <option value="regular-play">Help</option>
+                                            <option value="dnd">Donations</option>
+                                            <option value="retro-night">Volunteering</option>
+                                            <option value="tournament">Comments</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" rows="6" id="message" name="message"
+                                            required></textarea>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                            </form>
                         </div>
-
-                        <button type="submit" class="btn btn-primary mb-4">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+                    </div>
+                    </div>
+                </section>
     </main>
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">

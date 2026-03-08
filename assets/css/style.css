@@ -52,11 +52,14 @@ p {
 }
 /*header*/
 header {
-    background-color: #2f5d3a;
+    background-color:var(--highlight-color-light);
     font-size: large; 
 }
 .opening-message {
     margin-top: 50px;
+}
+ .meet-the-directors {
+    color:var(--primary-color)
 }
 /*main content*/
 main {
