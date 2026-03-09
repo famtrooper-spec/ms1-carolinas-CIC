@@ -12,12 +12,16 @@
     --highlight-color-light: #f3eedd /*beige*/;
 }
 
+/* to prevent overflow*/
+html, body {
+    overflow-x: hidden;
+}
 /* Global styles */
 body {
     background-color: var(--highlight-color-light);
     font-family: var(--secondary-font);
     font-weight: 400;
-    height: 100%;
+    height: auto;
 }
 h1, 
 h2, h3 {
@@ -87,7 +91,8 @@ main {
     max-height: 200px;
     object-fit: cover;
     height: auto;
-    width: auto;
+    width: 100%;
+    display: block;
 }
 p {
     color:var(--primary-color);
