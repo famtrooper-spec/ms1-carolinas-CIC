@@ -81,10 +81,12 @@ main {
 .logo {
     height:auto;
     max-width: 350px;
+    width: auto;
 }
 .logo-home {
     max-width: 350px;
     height:auto;
+    width: auto;
 }
 .carousel-item img {
     max-height: 200px;
