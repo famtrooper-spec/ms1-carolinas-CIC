@@ -1,5 +1,11 @@
 # Carolina's Community CIC
 
+## Live Website
+https://famtrooper-spec.github.io/ms1-carolinas-CIC/
+
+## GitHub Repository
+https://github.com/famtrooper-spec/ms1-carolinas-CIC
+
 ### Overview
 This project is a community‑focused website designed to support families and individuals experiencing hardship. It provides access to essentials, such as clothing donations, food, furniture, and household electrical items. The website aims to offer a point of contact for those that may be in need. The CIC has a commitment to improving community wellbeing
 
