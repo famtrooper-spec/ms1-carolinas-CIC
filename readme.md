@@ -127,7 +127,7 @@ I want the site to load quickly, so that I can access information without delays
 ## Project Status
 
 The project is currently in a stable and usable state for the client.  
-While the core features are complete, some items from the user stories—such as a dedicated volunteer information page—are planned for future development once the CIC becomes fully operational.
+While the core features are complete, some items from the user stories such as a dedicated volunteer information page are planned for future development once the CIC becomes fully operational.
 
 ---
 
