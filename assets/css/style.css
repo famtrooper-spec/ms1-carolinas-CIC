@@ -49,10 +49,15 @@ p {
 }
 #navbarNav .nav-link:hover {
     color: var(--secondary-color);
+    opacity: 0.8;
 }
 .navbar-toggler {
     background-color: var(--highlight-color-light);
 }
+nav a.active {
+  border-bottom: 2px solid #DBDAB0; /* this is to make it evident on which page you are on */
+}
+
 /*header*/
 header {
     background-color:var(--highlight-color-light);
@@ -92,9 +97,9 @@ main {
 .carousel-item img {
     max-height: 168px;
     object-fit: cover;
-    height: auto:
+    height: auto;
     width: 100%;
-    display: block;
+    display:block;
 }
 .home-btn {
     justify-content: center;
@@ -102,10 +107,7 @@ main {
 /*footer*/
 footer {
     background-color: var(--primary-color);
-    font-family: var(--secondary-font);
-    
-  
-    
+    font-family: var(--secondary-font);  
 }
 footer i {
     margin-bottom: 1rem;
