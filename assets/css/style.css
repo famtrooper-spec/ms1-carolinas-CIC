@@ -41,8 +41,8 @@ p {
     text-transform: uppercase;
 }
 .nav-logo {
-    height: 30px;
-    max-width: 30px;
+    height: 40px;
+    max-width: auto;
 }
 .nav-link { 
     color: var(--highlight-color-light)
@@ -54,9 +54,13 @@ p {
 .navbar-toggler {
     background-color: var(--highlight-color-light);
 }
+/* this is to make it evident on which page you are on */
 nav a.active {
-  border-bottom: 2px solid #DBDAB0; /* this is to make it evident on which page you are on */
+    color: #849472 !important;
+    border-bottom: 2px solid #849472;
+    padding-bottom: 4px;
 }
+
 
 /*header*/
 header {
