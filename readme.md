@@ -143,6 +143,8 @@ While the core features are complete, some items from the user stories such as a
 Below are the wireframes created during the planning stage of the project.  
 They include mobile, tablet, and desktop layouts to show responsive design planning.
 
+
+
 ---
 
 ### Home Page Wireframes
@@ -186,6 +188,21 @@ They include mobile, tablet, and desktop layouts to show responsive design plann
 *You can also view the original Balsamiq project here:*  
 [Wireframes (Balsamiq Link)](https://balsamiq.cloud/saz0gco/pjszc69)
 
+## Visual Design & Accessibility
+- **Colour palette** 
+![chosen colour scheme](assets/screenshots/color-scheme.png)
+
+- **Typography choices**
+
+![chosen typography](assets/screenshots/lato-font.png)
+
+![chosen typography](assets/screenshots/inter-font.png)
+
+- **Explanation of decisions**
+After consulting clients and after researching what most CIC's use on the web and their communications i found that they all use very professional looking fonts so I decided to stick with what already works for readability. I decided to use Inter as a primary font and Lato as a secondary font. 
+The colour scheme was decided based on the CIC's logo which i uploaded onto the website colormind.io and it generated a colour palette which i then extracted 4 colours to use on the website, I then tested the background colour and the typography colour on the WebAim website and used its tool to test the contrast and it passed.
+![WebAim screenshot](assets/screenshots/web-aim.png)
+
 ## Technology Stack
 
 - **HTML5** – Provides the structure and semantic layout of the website.  
@@ -195,7 +212,7 @@ They include mobile, tablet, and desktop layouts to show responsive design plann
 - **Pexels.com** – Source of some carousel images.  
 - **Google Images** – Additional image sources for the carousel.  
 - **Colormind.io** – Used to generate a colour palette based on the company logo.  
-    ![selected colour scheme](assets/screenshots/color-scheme.png)
+ - **WebAim** - I used this website to check the contrast of the two main colours would be good and make the website easier to read.
 - **Font Awesome** – Provided icons such as the phone icon used next to the contact number.  
 - **Google Fonts** – Used to import fonts that improve the look and feel of the website.  
 - **Affinity App** – Used to resize, reformat, and adjust images and logos.
