@@ -315,6 +315,28 @@ Note: Validator warns that imported stylesheets cannot be checked, but this does
 
 **Following the completion of testing and bug fixes, the next steps for development are outlined in the Roadmap below.**
 
+## Deployment to GitHub Pages
+To publish the website, I used GitHub Pages, as it allows static sites to be hosted directly from a repository.
+
+**Process Overview**
+
+- I pushed all project files (HTML, CSS, images, screenshots, wireframes and assets) to an existing GitHub repository that i had made public for this project.
+- Inside repository settings, I scrolled to the Pages section.
+- Under Source, I selected the main branch and set the folder to /root (since my index.html is in the main directory).
+- GitHub Pages automatically generated a live URL for the site.
+- After a few seconds, the site became publicly accessible at:
+https://famtrooper-spec.github.io/ms1-carolinas-CIC/ (famtrooper-spec.github.io in Bing)
+- Whenever code is updated pushed as new commits, GitHub Pages automatically rebuilds and updates the live site.
+
+**I chose Git Hub pages because**
+
+- It integrates directly with version control
+- It’s free and very reliable
+- It automatically updates when changes are pushed and synced 
+- It tends to work well for static front‑end projects like this one
+
+
+
 ## Roadmap
 **Phase 1 – Planning & Design** 
   - Define site structure and content  
